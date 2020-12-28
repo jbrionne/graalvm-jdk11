@@ -19,12 +19,19 @@
 
 	<dependencies>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.graalvm.sdk</groupId>
 			<artifactId>graal-sdk</artifactId>
 			<version>${graalvm.version}</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> 
+		
+		<dependency>
+		    <groupId>org.graalvm.sdk</groupId>
+		    <artifactId>polyglot-tck</artifactId>
+			<version>${graalvm.version}</version>
+			<scope>provided</scope>
+		</dependency> -->
 
 		<dependency>
 			<groupId>junit</groupId>
